@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Александр Дегтяренко](https://up.htmlacademy.ru/htmlcss/23/user/788539).
-* Наставник: `Неизвестно`.
+* Наставник: `Саяхов Дамир` (https://htmlacademy.ru/profile/id122659).
 
 ---
 
@@ -42,5 +42,3 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 1](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
 
-
-#### 5. Саяхов Дамир
