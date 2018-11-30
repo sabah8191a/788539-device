@@ -24,6 +24,22 @@
 	</header>
 
 	<main class="main-container">
+		<section class="catalog">
+			<h2>Каталог товаров</h2>
+			<ul class="first-category">
+				<li>Виртуальная реальность</li>
+				<li>Моноподы для селфи</li>
+				<li>Экшн-камеры</li>
+			</ul>
+			<ul class="secont-category">
+				<li>Фитнес-браслеты</li>
+				<li>Умные часы</li>
+			</ul>
+			<ul class="third-category">
+				<li>Квадрокоптеры</li>
+			</ul>
+			
+		</section>
 		<section class="catalog-main-nav">
 			<h1>Моноподы для селфи</h1>
 			<ul class="nav-on-catalog">
@@ -32,26 +48,56 @@
 				<li><a href="#">Моноподы для селфи</a></li>
 			</ul>
 		</section>
-		<section class="filters">	
-			<p>Цвет</p>
-			<ul class="color">
-				<li><input type="checkbox" name="option1" value="black" checked>Черный<Br></li>
-				<li><input type="checkbox" name="option2" value="white">Белый<Br></li>
-	   			<li><input type="checkbox" name="option3" value="blue" checked>Синий X<Br></li>
-	   			<li><input type="checkbox" name="option4" value="red" checked>Красный<Br></li> 
-	   			<li><input type="checkbox" name="option5" value="pink">Розовый</p></li>
-			</ul>
-			<ul class="bluetooth">
-				<li><input type="radio" name="radiooption1" value="true" checked>Есть</li>
-				<li><input type="radio" name="radiooption1" value="false">Нет</li>
-			</ul>
-			<input type="button" value="Показать">
-		</section>
+	    <section class="filters">
+	        <h2 class="visually-hidden">Фильтр:</h2>
+	        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+	          <fieldset>
+	            <legend>Цвет</legend>
+	            <ul>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="black" id="filter-black" checked>
+	                <label for="filter-black">Черный</label>
+	              </li>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white" id="filter-white">
+	                <label for="filter-white">Белый</label>
+	              </li>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="blue" id="filter-blue" checked>
+	                <label for="filter-blue">Синий</label>
+	              </li>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="red" id="filter-red" checked>
+	                <label for="filter-red">Красный</label>
+	              </li>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pink" id="filter-pink">
+	                <label for="filter-pink">Розовый</label>
+	              </li>
+	            </ul>
+	          </fieldset>
+	          <fieldset>
+	            <legend>Bluetooth</legend>
+	            <ul>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="bluetooth" value="yes" id="bluetooth-yes" checked>
+	                <label for="bluetooth-yes">Есть</label>
+	              </li>
+	              <li class="filter-option">
+	                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="bluetooth" value="no" id="bluetooth-no">
+	                <label for="bluetooth-no">Нет</label>
+	              </li>
+	            </ul>
+	          </fieldset>
+	          <button type="submit" class="filter-button button">Показать</button>
+	        </form>
+	    </section>
+
 		<section class="catalog">
 			<ul class="catalog-list">
 				<li>
             		<p class="catalog-item-image">
-              			<a href="catalog-item.html">
+              			<a href="catalog-item.html">	
               				<img src="img/item-1.jpg" width="360px" height="378px" alt="Любительская селфи-палка">
               			</a>
             		</p>
