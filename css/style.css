@@ -1,0 +1,124 @@
+@font-face {
+	font-family: GilroyExtraBold;
+	src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+	font-family: GilroyLight;
+	src: url(../fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+
+body {
+	margin: auto;
+	padding: 0;
+	width: 1160px;
+	color: #000000
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	background-image: url(../img/bg-header.jpg);
+
+}
+
+.main-nav {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 40px;
+	
+	
+}
+
+.logo {
+	position: relative;
+	bottom: 30px;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: "GilroyExtraBold", sans-serif;
+
+}
+
+#search {
+	background-color: #f7e296;
+	color: #b6a76f;
+	border: none;
+	outline: none;
+	vertical-align: middle;
+
+}
+
+.information {
+	margin-top: 50px;
+}
+
+.information li {
+	display: inline;
+	font-family: "GilroyExtraBold", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 4.4px;
+	
+}
+
+.information li:first-child {
+	margin-right: 280px;
+	
+}
+
+.information li:nth-child(2) {
+	margin-right: 40px;
+}
+
+.information li:last-child {
+	margin-left: 72px;
+}
+
+.log-in {
+	display: inline;
+	margin-left: 320px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.log-in a:first-child {
+	margin-right: 218px;
+}
+
+.log-in a:nth-child(2) {
+	margin-right: 45px;
+}
+
+.text-to-us {
+	display: none;
+}
+
+footer {
+
+	background-color: #464646;
+}
+
+.logo-footer {
+	color: #ffc600;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: "GilroyExtraBold", sans-serif;
+}
